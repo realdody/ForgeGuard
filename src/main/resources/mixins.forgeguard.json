@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "dev.riever.forgeguard.mixin",
+  "refmap": "mixins.forgeguard.refmap.json",
+  "mixins": [
+    "HandshakeHandlerMixin",
+    "HandshakePacketMixin",
+    "NetworkManagerMixin"
+  ],
+  "target": "@env(DEFAULT)",
+  "compatibilityLevel": "JAVA_8"
+}
