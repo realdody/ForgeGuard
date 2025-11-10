@@ -1,6 +1,6 @@
 # ForgeGuard
 
-An implementation of [BungeeGuard](https://www.spigotmc.org/resources/bungeeguard.79601/) protocol for Forge 1.7.10
+An implementation of [BungeeGuard](https://www.spigotmc.org/resources/bungeeguard.79601/) protocol for Forge 1.7.10, inspired by [BungeeForge](https://github.com/caunt/BungeeForge/tree/1.7.10) and [BungeeGuard](https://github.com/lucko/BungeeGuard)
 
 Designed to work with [GTNH](https://www.gtnewhorizons.com/) behind [Velocity](https://papermc.io/software/velocity/)
 
