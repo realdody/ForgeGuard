@@ -36,14 +36,14 @@ public class LoginStartPacketMixin {
         if (networkManager.forgeguard$hasForwardedProfile()) {
             ForwardedProfile profile = networkManager.forgeguard$getForwardedProfile();
             field_149305_a = new GameProfile(profile.id(), field_149305_a.getName());
-            PropertyMap propertyMap = field_149305_a.getProperties();
+            PropertyMap properties = field_149305_a.getProperties();
 
             profile.properties()
                 .stream()
                 .filter(
                     property -> PROP_PATTERN.matcher(property.getName())
                         .matches())
-                .forEach(property -> { propertyMap.put(property.getName(), property); });
+                .forEach(property -> { properties.put(property.getName(), property); });
         }
     }
 }

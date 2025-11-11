@@ -5,6 +5,7 @@
   "mixins": [
     "HandshakeHandlerMixin",
     "HandshakePacketMixin",
+    "LoginStartPacketMixin",
     "NetworkManagerMixin"
   ],
   "target": "@env(DEFAULT)",
