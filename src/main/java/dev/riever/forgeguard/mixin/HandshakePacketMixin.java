@@ -42,7 +42,9 @@ public class HandshakePacketMixin implements ForgeGuardHandshakePacket {
         }
         forgeguard$address = split[1];
         forgeguard$id = UUIDTypeAdapter.fromString(split[2]);
-        forgeguard$properties = forgeguard$GSON.fromJson(split[3], Property[].class);
+        if (split.length > 3) {
+            forgeguard$properties = forgeguard$GSON.fromJson(split[3], Property[].class);
+        }
         return split[1];
     }
 
